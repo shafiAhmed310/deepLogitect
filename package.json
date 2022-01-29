@@ -1,0 +1,17 @@
+{
+  "name": "deeplogitech",
+  "version": "1.0.0",
+  "description": "html text extractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "shafi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
