@@ -70,7 +70,7 @@ filteredArray.forEach((ele,i)=>{
     if(ele.includes('href')){
         ele.replace(/'\n'/g,'');
    let link = ele.substring(12,ele.length-2);
-   filteredArray.splice(i,1,`https://time.com"${link}`)
+   filteredArray.splice(i,1,`https://time.com${link}`)
     }else{
         let title = ele.substring(0,ele.length-2);
         filteredArray.splice(i,1,title)
